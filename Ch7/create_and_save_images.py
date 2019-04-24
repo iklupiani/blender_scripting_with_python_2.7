@@ -25,9 +25,9 @@ __all__ = (
     
 import bpy
 
-from ch6_source.split_screen_area import *
-from ch6_source.view_fit import *
-from ch6_source.uv_settings import *
+from Ch7.split_screen_area import *
+from Ch7.view_fit import *
+from Ch7.uv_settings import *
 
 def create_image_data_block(context, name, type='UV_GRID', color=(0, 0, 0, 1)):
     if bpy.data.images.find(name) < 0:

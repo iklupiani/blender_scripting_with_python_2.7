@@ -25,10 +25,10 @@ __all__ = (
 import bpy
 import bmesh
 
-from ch6_source.split_screen_area import *
-from ch6_source.view_fit import *
-from ch6_source.uv_settings import *
-from ch6_source.create_and_save_images import *
+from Ch7.split_screen_area import *
+from Ch7.view_fit import *
+from Ch7.uv_settings import *
+from Ch7.create_and_save_images import *
 
 def generate_and_seam_cube(context, obj_name='cube_obj', side_length=1, center=(0, 0, 0)):
     # cube_mesh is an empty placeholder mesh
